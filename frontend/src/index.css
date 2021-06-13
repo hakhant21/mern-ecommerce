@@ -1,0 +1,26 @@
+main {
+  min-height: 70vh;
+}
+
+h1 {
+  padding: 1rem;
+  font-size: 1.8rem;
+}
+
+h2 {
+  padding: 0.5rem;
+  font-size: 1.4rem;
+}
+
+h3 {
+  padding: 1rem;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.carousel img {
+  height: 500px;
+  object-fit: initial;
+}

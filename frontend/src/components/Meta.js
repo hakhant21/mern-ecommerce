@@ -1,0 +1,21 @@
+import React from "react";
+import { Helmet } from "react-helmet";
+
+const Meta = ({ title, description, keywords }) => {
+  return (
+    <Helmet>
+      <title>{title}</title>
+      <meta name='description' content={description} />
+      <meta name='keyword' content={keywords} />
+    </Helmet>
+  );
+};
+
+Meta.defaultProps = {
+  title: "Welcome To DevHak",
+  description: "We sell the best quality for cheap",
+  keywords:
+    "Anything you want such as electronics,laptop,camera,mobile related and more...",
+};
+
+export default Meta;
